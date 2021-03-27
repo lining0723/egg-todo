@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="516f1fc0-32f1-459c-a708-d4b625d1e765" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/.autod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/egg-todo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controller/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appveyor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/todo/common-error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/todo/egg-agent.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/todo/egg-schedule.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/todo/egg-web.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/todo/todo-web.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/agent_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/agent_config_meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/agent_timing_6756.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/application_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/application_config_meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/application_timing_1336.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/router.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typings/app/controller/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typings/app/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typings/config/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typings/config/plugin.d.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qLI1uryX2TRZ1T5HMdfOXnysyR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="516f1fc0-32f1-459c-a708-d4b625d1e765" name="Default Changelist" comment="" />
+      <created>1616852231517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616852231517</updated>
+      <workItem from="1616852233115" duration="231000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="372" y="8" key="CommitChangelistDialog2" timestamp="1616852301886">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="372" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1616852301886" />
+    <state x="270" y="55" key="SettingsEditor" timestamp="1616852463360">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1616852463360" />
+  </component>
+</project>

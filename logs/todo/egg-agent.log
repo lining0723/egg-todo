@@ -1,0 +1,11 @@
+2021-03-27 14:41:09,342 INFO 6756 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\logs\\todo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"todo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-03-27 14:41:09,391 INFO 6756 [egg:core] dump config after load, 39ms
+2021-03-27 14:41:09,480 INFO 6756 [egg-watcher] Start watching: ["C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\app","C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\config","C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\mocks","C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\mocks_proxy","C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\app.js"]
+2021-03-27 14:41:09,480 INFO 6756 [egg-watcher] Start watching: "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\app"
+2021-03-27 14:41:09,480 INFO 6756 [egg-watcher] Start watching: "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\config"
+2021-03-27 14:41:09,480 INFO 6756 [egg-watcher] Start watching: "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\mocks"
+2021-03-27 14:41:09,481 INFO 6756 [egg-watcher] Start watching: "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\mocks_proxy"
+2021-03-27 14:41:09,481 INFO 6756 [egg-watcher] Start watching: "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\app.js"
+2021-03-27 14:41:09,481 INFO 6756 [egg-watcher:agent] watcher start success
+2021-03-27 14:41:09,534 INFO 6756 [egg:core] dump config after ready, 51ms
+2021-03-27 14:41:11,270 INFO 6756 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\app\\public","stat":{"dev":3834089517,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1407374884006158,"size":0,"blocks":0,"atimeMs":1616827271267.098,"mtimeMs":1616827271267.098,"ctimeMs":1616827271267.098,"birthtimeMs":1616827271267.098,"atime":"2021-03-27T06:41:11.267Z","mtime":"2021-03-27T06:41:11.267Z","ctime":"2021-03-27T06:41:11.267Z","birthtime":"2021-03-27T06:41:11.267Z"},"remove":false,"isDirectory":true,"isFile":false}
