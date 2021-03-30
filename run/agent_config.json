@@ -76,7 +76,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -89,8 +89,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\lib\\event-sources\\default",
-        "development": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\lib\\event-sources\\development"
+        "default": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\lib\\event-sources\\default",
+        "development": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -113,7 +113,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "C:\\Users\\admin\\AppData\\Local\\Temp\\egg-multipart-tmp\\todo",
+      "tmpdir": "C:\\Users\\LI\\AppData\\Local\\Temp\\egg-multipart-tmp\\todo",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -137,18 +137,26 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\app\\public",
+      "dir": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\app\\view",
+      "root": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
+    },
+    "sequelize": {
+      "dialect": "mysql",
+      "database": "todo",
+      "host": "121.5.226.86",
+      "port": 3306,
+      "username": "root",
+      "password": "<String len: 6>"
     },
     "env": "local",
     "name": "todo",
@@ -170,7 +178,9 @@
       },
       "dependencies": {
         "egg": "^2.15.1",
-        "egg-scripts": "^2.11.0"
+        "egg-scripts": "^2.11.0",
+        "egg-sequelize": "^6.0.0",
+        "mysql2": "^2.2.5"
       },
       "devDependencies": {
         "autod": "^3.0.1",
@@ -206,9 +216,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init",
-    "HOME": "C:\\Users\\admin",
-    "rundir": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\run",
+    "baseDir": "C:\\Users\\LI\\Desktop\\egg\\egg-todo",
+    "HOME": "C:\\Users\\LI",
+    "rundir": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -240,7 +250,7 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\logs\\todo",
+      "dir": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\logs\\todo",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -318,8 +328,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
-      "path": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg-onerror@2.1.0@egg-onerror",
+      "from": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
+      "path": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg-onerror@2.1.0@egg-onerror",
       "version": "2.1.0"
     },
     "session": {
@@ -329,8 +339,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
-      "path": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg-session@3.3.0@egg-session",
+      "from": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
+      "path": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg-session@3.3.0@egg-session",
       "version": "3.3.0"
     },
     "i18n": {
@@ -340,8 +350,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
-      "path": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg-i18n@2.1.1@egg-i18n",
+      "from": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
+      "path": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg-i18n@2.1.1@egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -351,8 +361,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
-      "path": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg-watcher@3.1.1@egg-watcher",
+      "from": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
+      "path": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg-watcher@3.1.1@egg-watcher",
       "version": "3.1.1"
     },
     "multipart": {
@@ -364,8 +374,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
-      "path": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg-multipart@2.10.3@egg-multipart",
+      "from": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
+      "path": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg-multipart@2.10.3@egg-multipart",
       "version": "2.10.3"
     },
     "security": {
@@ -377,8 +387,8 @@
         "session"
       ],
       "env": [],
-      "from": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
-      "path": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg-security@2.8.0@egg-security",
+      "from": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
+      "path": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg-security@2.8.0@egg-security",
       "version": "2.8.0"
     },
     "development": {
@@ -392,8 +402,8 @@
       "env": [
         "local"
       ],
-      "from": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
-      "path": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg-development@2.7.0@egg-development",
+      "from": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
+      "path": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg-development@2.7.0@egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -405,8 +415,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
-      "path": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator",
+      "from": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
+      "path": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -416,8 +426,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
-      "path": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg-schedule@3.6.6@egg-schedule",
+      "from": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
+      "path": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg-schedule@3.6.6@egg-schedule",
       "version": "3.6.6"
     },
     "static": {
@@ -427,8 +437,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
-      "path": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg-static@2.2.0@egg-static",
+      "from": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
+      "path": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg-static@2.2.0@egg-static",
       "version": "2.2.0"
     },
     "jsonp": {
@@ -440,8 +450,8 @@
         "security"
       ],
       "env": [],
-      "from": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
-      "path": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp",
+      "from": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
+      "path": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -451,9 +461,20 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
-      "path": "C:\\Users\\admin\\Desktop\\lining\\egg-example\\init\\node_modules\\_egg-view@2.1.3@egg-view",
+      "from": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg@2.29.3@egg\\config\\plugin.js",
+      "path": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg-view@2.1.3@egg-view",
       "version": "2.1.3"
+    },
+    "sequelize": {
+      "enable": true,
+      "package": "egg-sequelize",
+      "name": "sequelize",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\config\\plugin.js",
+      "path": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg-sequelize@6.0.0@egg-sequelize",
+      "version": "6.0.0"
     }
   }
 }

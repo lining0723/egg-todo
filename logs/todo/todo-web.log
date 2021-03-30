@@ -1,0 +1,310 @@
+2021-03-30 21:09:20,421 INFO 2400 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:27:20,395 INFO 6056 [egg-sequelize](17ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:27:47,070 INFO 10812 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:29:36,736 INFO 8892 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:29:57,145 INFO 7780 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:31:36,159 INFO 11572 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:35:09,742 INFO 10044 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:35:16,593 INFO 19724 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:35:19,307 INFO 16132 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:37:19,322 INFO 7548 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:37:28,593 INFO 20024 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:37:33,460 INFO 20064 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:38:03,167 INFO 19204 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:38:17,433 INFO 18120 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:38:34,953 INFO 7044 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:39:00,726 INFO 17388 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:39:02,554 INFO 10368 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:39:14,649 INFO 17104 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:39:16,445 ERROR 17104 [-/::1/-/4ms GET /] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.$success (C:\Users\LI\Desktop\egg\egg-todo\app\extend\context.js:3:18)
+    at HomeController.index (C:\Users\LI\Desktop\egg\egg-todo\app\controller\home.js:7:9)
+    at Object.callFn (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\LI\Desktop\egg\egg-todo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+
+pid: 17104
+hostname: DESKTOP-LPGQGKC
+
+2021-03-30 21:39:18,808 ERROR 17104 [-/::1/-/0ms GET /] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.$success (C:\Users\LI\Desktop\egg\egg-todo\app\extend\context.js:3:18)
+    at HomeController.index (C:\Users\LI\Desktop\egg\egg-todo\app\controller\home.js:7:9)
+    at Object.callFn (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\LI\Desktop\egg\egg-todo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+
+pid: 17104
+hostname: DESKTOP-LPGQGKC
+
+2021-03-30 21:40:47,468 INFO 2788 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:41:49,285 INFO 17952 [egg-sequelize](17ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:42:06,373 INFO 12864 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:45:14,467 INFO 19708 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:45:16,173 INFO 17148 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:45:27,936 INFO 13124 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:45:38,401 INFO 13572 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:45:40,069 INFO 4972 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:49:19,525 INFO 13720 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:52:07,521 INFO 16044 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:52:29,623 INFO 19540 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:52:44,036 INFO 11448 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:53:52,174 INFO 6172 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:54:21,844 INFO 20020 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:54:54,201 INFO 6624 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:54:56,095 INFO 20072 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:55:11,912 INFO 17536 [egg-sequelize](15ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:55:30,519 INFO 14052 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:55:36,370 INFO 16812 [egg-sequelize](16ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:55:52,567 INFO 10884 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:56:08,086 ERROR 10884 [-/::1/-/4ms GET /todoList] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at HomeService.todoList (C:\Users\LI\Desktop\egg\egg-todo\app\service\home.js:8:36)
+    at HomeController.todoList (C:\Users\LI\Desktop\egg\egg-todo\app\controller\home.js:14:48)
+    at Object.callFn (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\LI\Desktop\egg\egg-todo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+
+pid: 10884
+hostname: DESKTOP-LPGQGKC
+
+2021-03-30 21:58:04,195 ERROR 10884 [-/::1/-/1ms GET /todoList] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at HomeService.todoList (C:\Users\LI\Desktop\egg\egg-todo\app\service\home.js:8:36)
+    at HomeController.todoList (C:\Users\LI\Desktop\egg\egg-todo\app\controller\home.js:14:48)
+    at Object.callFn (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\LI\Desktop\egg\egg-todo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+
+pid: 10884
+hostname: DESKTOP-LPGQGKC
+
+2021-03-30 21:59:06,471 INFO 19512 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 21:59:08,485 ERROR 19512 [-/::1/-/5ms GET /todoList] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at HomeService.todoList (C:\Users\LI\Desktop\egg\egg-todo\app\service\home.js:8:36)
+    at HomeController.todoList (C:\Users\LI\Desktop\egg\egg-todo\app\controller\home.js:14:48)
+    at Object.callFn (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\LI\Desktop\egg\egg-todo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+
+pid: 19512
+hostname: DESKTOP-LPGQGKC
+
+2021-03-30 21:59:15,026 INFO 16420 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:01:08,245 INFO 3856 [egg-sequelize](16ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:01:51,063 INFO 2368 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:01:53,969 ERROR 2368 [-/::1/-/5ms GET /todoList] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at HomeService.todoList (C:\Users\LI\Desktop\egg\egg-todo\app\service\home.js:8:36)
+    at HomeController.todoList (C:\Users\LI\Desktop\egg\egg-todo\app\controller\home.js:14:48)
+    at Object.callFn (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\LI\Desktop\egg\egg-todo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+
+pid: 2368
+hostname: DESKTOP-LPGQGKC
+
+2021-03-30 22:03:34,391 INFO 18988 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:03:39,035 INFO 18988 [egg-sequelize](13ms) Executed (default): SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;
+2021-03-30 22:03:39,050 ERROR 18988 [-/::1/-/22ms GET /todoList] nodejs.SequelizeDatabaseError: Unknown column 'id' in 'field list'
+    at Query.formatError (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\model.js:1753:21)
+    at async HomeController.todoList (C:\Users\LI\Desktop\egg\egg-todo\app\controller\home.js:14:20)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'id' in 'field list'","sql":"SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'id' in 'field list'","sql":"SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"}
+sql: "SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"
+parameters: undefined
+pid: 18988
+hostname: DESKTOP-LPGQGKC
+
+2021-03-30 22:08:19,922 INFO 18380 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:10:01,283 INFO 7676 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:10:11,075 INFO 17092 [egg-sequelize](17ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:10:15,604 INFO 17092 [egg-sequelize](17ms) Executed (default): SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;
+2021-03-30 22:10:15,621 ERROR 17092 [-/::1/-/24ms GET /todoList] nodejs.SequelizeDatabaseError: Unknown column 'id' in 'field list'
+    at Query.formatError (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\model.js:1753:21)
+    at async HomeController.todoList (C:\Users\LI\Desktop\egg\egg-todo\app\controller\home.js:14:20)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'id' in 'field list'","sql":"SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'id' in 'field list'","sql":"SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"}
+sql: "SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"
+parameters: undefined
+pid: 17092
+hostname: DESKTOP-LPGQGKC
+
+2021-03-30 22:10:23,800 INFO 11008 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:10:25,099 INFO 11008 [egg-sequelize](14ms) Executed (default): SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;
+2021-03-30 22:10:25,114 ERROR 11008 [-/::1/-/20ms GET /todoList] nodejs.SequelizeDatabaseError: Unknown column 'id' in 'field list'
+    at Query.formatError (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\model.js:1753:21)
+    at async HomeController.todoList (C:\Users\LI\Desktop\egg\egg-todo\app\controller\home.js:14:20)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'id' in 'field list'","sql":"SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'id' in 'field list'","sql":"SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"}
+sql: "SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"
+parameters: undefined
+pid: 11008
+hostname: DESKTOP-LPGQGKC
+
+2021-03-30 22:10:47,844 INFO 12204 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:10:49,162 INFO 12204 [egg-sequelize](20ms) Executed (default): SELECT `id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;
+2021-03-30 22:10:49,177 ERROR 12204 [-/::1/-/27ms GET /todoList] nodejs.SequelizeDatabaseError: Unknown column 'id' in 'field list'
+    at Query.formatError (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\model.js:1753:21)
+    at async HomeController.todoList (C:\Users\LI\Desktop\egg\egg-todo\app\controller\home.js:14:20)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'id' in 'field list'","sql":"SELECT `id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'id' in 'field list'","sql":"SELECT `id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"}
+sql: "SELECT `id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"
+parameters: undefined
+pid: 12204
+hostname: DESKTOP-LPGQGKC
+
+2021-03-30 22:13:40,800 INFO 5900 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:13:43,291 INFO 11748 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:13:47,747 INFO 19916 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:13:49,751 INFO 19916 [egg-sequelize](13ms) Executed (default): SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;
+2021-03-30 22:13:49,768 ERROR 19916 [-/::1/-/20ms GET /todoList] nodejs.SequelizeDatabaseError: Unknown column 'id' in 'field list'
+    at Query.formatError (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\model.js:1753:21)
+    at async HomeController.todoList (C:\Users\LI\Desktop\egg\egg-todo\app\controller\home.js:14:20)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'id' in 'field list'","sql":"SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'id' in 'field list'","sql":"SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"}
+sql: "SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"
+parameters: undefined
+pid: 19916
+hostname: DESKTOP-LPGQGKC
+
+2021-03-30 22:14:00,780 INFO 7872 [egg-sequelize](17ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:15:07,925 INFO 20036 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:15:09,098 INFO 20036 [egg-sequelize](13ms) Executed (default): SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;
+2021-03-30 22:15:09,115 ERROR 20036 [-/::1/-/20ms GET /todoList] nodejs.SequelizeDatabaseError: Unknown column 'id' in 'field list'
+    at Query.formatError (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\model.js:1753:21)
+    at async HomeController.todoList (C:\Users\LI\Desktop\egg\egg-todo\app\controller\home.js:14:20)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'id' in 'field list'","sql":"SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'id' in 'field list'","sql":"SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"}
+sql: "SELECT `id` AS `_id`, `openid` AS `_openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"
+parameters: undefined
+pid: 20036
+hostname: DESKTOP-LPGQGKC
+
+2021-03-30 22:15:57,553 INFO 19436 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:15:58,067 INFO 19436 [egg-sequelize](14ms) Executed (default): SELECT `id`, `openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;
+2021-03-30 22:15:58,094 ERROR 19436 [-/::1/-/20ms GET /todoList] nodejs.SequelizeDatabaseError: Unknown column 'create_time' in 'field list'
+    at Query.formatError (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\model.js:1753:21)
+    at async HomeController.todoList (C:\Users\LI\Desktop\egg\egg-todo\app\controller\home.js:14:20)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'create_time' in 'field list'","sql":"SELECT `id`, `openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'create_time' in 'field list'","sql":"SELECT `id`, `openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"}
+sql: "SELECT `id`, `openid`, `content`, `create_time` AS `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"
+parameters: undefined
+pid: 19436
+hostname: DESKTOP-LPGQGKC
+
+2021-03-30 22:18:06,014 INFO 6856 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:18:08,384 INFO 20212 [egg-sequelize](17ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:18:11,785 INFO 20212 [egg-sequelize](17ms) Executed (default): SELECT `id`, `openid`, `content`, `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;
+2021-03-30 22:18:11,812 ERROR 20212 [-/::1/-/24ms GET /todoList] nodejs.SequelizeDatabaseError: Unknown column 'end_time' in 'field list'
+    at Query.formatError (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\model.js:1753:21)
+    at async HomeController.todoList (C:\Users\LI\Desktop\egg\egg-todo\app\controller\home.js:14:20)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'end_time' in 'field list'","sql":"SELECT `id`, `openid`, `content`, `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'end_time' in 'field list'","sql":"SELECT `id`, `openid`, `content`, `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"}
+sql: "SELECT `id`, `openid`, `content`, `createTime`, `remarks`, `status`, `lever`, `end_time` AS `endTime` FROM `todos` AS `todos`;"
+parameters: undefined
+pid: 20212
+hostname: DESKTOP-LPGQGKC
+
+2021-03-30 22:18:26,263 INFO 16992 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:18:27,226 INFO 16992 [egg-sequelize](20ms) Executed (default): SELECT `id`, `openid`, `content`, `createTime`, `remarks`, `status`, `lever`, `endTime` FROM `todos` AS `todos`;
+2021-03-30 22:18:53,743 INFO 19896 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-03-30 22:20:31,326 INFO 19896 [egg-sequelize](20ms) Executed (default): SELECT `id`, `openid`, `content`, `createTime`, `remarks`, `status`, `lever`, `endTime` FROM `todos` AS `todos`;

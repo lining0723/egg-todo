@@ -1,10 +1,9 @@
-'use strict';
-
 /**
  * @param {Egg.Application} app - egg application
  */
 module.exports = app => {
   const { router, controller, middleware } = app;
-  const common = middleware.common();
-  router.get('/', common, controller.home.index);
+  //const common = app.middleware.common();
+  router.get('/', controller.home.index);
+  router.get('/todoList', controller.home.todoList);
 };

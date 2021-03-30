@@ -1,20 +1,17 @@
 const Service = require('egg').Service;
 const Sequelize = require('sequelize');
 const Op = Sequelize.Op;
-class CommonService extends Service {
-
-    async getUserList(param) {
+class HomeService extends Service {
+    async todoList(param) {
         const { app } = this
-        let { name } = param
-        let data = app.model.UserList.findAll({
-            where: {
-                userName: {
-                    [Op.substring]: name
-                },
-            }
+        let { _openid } = param
+        let data = app.model.Todos.findAll({
+            // where: {
+            //     _openid: ''
+            // }
         });
         return data;
     }
 }
 
-module.exports = CommonService
+module.exports = HomeService
