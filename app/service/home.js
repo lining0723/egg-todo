@@ -1,7 +1,7 @@
-import { Service } from 'egg';
+const Service = require('egg').Service;
 const Sequelize = require('sequelize');
 const Op = Sequelize.Op;
-export default class CommonService extends Service {
+class CommonService extends Service {
 
     async getUserList(param) {
         const { app } = this
