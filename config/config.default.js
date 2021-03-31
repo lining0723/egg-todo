@@ -33,6 +33,11 @@ module.exports = appInfo => {
     port: 3306,
     password: '123456',
     database: 'todo',
+    timezone: '+08:00', //改为标准时区
+    dialectOptions: {
+      dateStrings: true,
+      typeCast: true
+    }
   };
   return {
     ...config,
