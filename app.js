@@ -9,8 +9,4 @@ module.exports = app => {
     app.ready(async () => {
         console.log("==app ready==");
     })
-    // app.use(response())
-    app.beforeClose(async () => {
-        console.log("==app beforeClose==");
-    })
 };
