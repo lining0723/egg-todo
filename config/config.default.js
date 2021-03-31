@@ -22,6 +22,11 @@ module.exports = appInfo => {
   const userConfig = {
     // myAppName: 'egg',
   };
+  config.security = {   //关闭post请求需要带cookie
+    csrf: {
+      enable: false,
+    },
+  };
   config.sequelize = {
     dialect: 'mysql',
     host: '121.5.226.86',
