@@ -5,5 +5,5 @@ module.exports = app => {
   const { router, controller, middleware } = app;
   //const common = app.middleware.common();
   router.get('/', controller.home.index);
-  router.get('/todoList', controller.home.todoList);
+  router.post('/todoList', controller.home.todoList);
 };
