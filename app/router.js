@@ -4,10 +4,10 @@
 module.exports = app => {
   const { router, controller, middleware } = app;
   //const common = middleware.common();
-  router.get('/', controller.home.index);
-  router.post('/todoList', controller.home.todoList);
-  router.post('/getOpenid', controller.home.getOpenid);
-  router.post('/create', controller.home.create);
-  router.post('/update', controller.home.update);
-  router.post('/remove', controller.home.remove);
+  router.get('/api/', controller.home.index);
+  router.post('/api/todoList', controller.home.todoList);
+  router.post('/api/getOpenid', controller.home.getOpenid);
+  router.post('/api/create', controller.home.create);
+  router.post('/api/update', controller.home.update);
+  router.post('/api/remove', controller.home.remove);
 };
