@@ -1,7 +1,7 @@
 module.exports = {
    $success( data = {}, msg = '执行成功!') {
         this.body = {
-            code: 0,
+            code: 200,
             data,
             msg,
         };
