@@ -1,3 +1,10 @@
+/*
+ * @Description: 
+ * @Author: LI NING
+ * @Date: 2021-04-09 16:09:57
+ * @LastEditTime: 2021-04-13 18:21:24
+ * @LastEditors:  
+ */
 const Service = require('egg').Service;
 const Sequelize = require('sequelize');
 const FastScanner = require('fastscan');   //引入敏感词插件
@@ -58,6 +65,41 @@ class HomeService extends Service {
             throw new Error('404');
         }
         return 'ok';
+    }
+    async sendMsg(param) {
+        const { ctx } = this
+        const list = await ctx.model.SendMsg.findAll({
+            // order: [['endTime', 'desc']],
+            attributes: [Sequelize.col('todo.openid'), Sequelize.col('todo.content'), Sequelize.col('todo.endTime'), 'id', 'todoId'],  //数据打平后要输出的字段 
+            include: [{
+                model: ctx.model.Todos,
+                attributes: []
+            }],
+            raw: true,    //数据打平属性
+        });
+        const urlStr = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxbccf1273eb88b291&secret=10ebf8ec1f891180713899940602d5f7'
+        const tokenRes = await ctx.curl(urlStr);
+        let access_token = JSON.parse(tokenRes.data).access_token
+        for (let item of list) {
+            var data = {
+                touser: item.openid,	//要通知的用户的openID
+                template_id: "RScY5UEMogFbX3c5C5w9cvVJ8Qj8vDEmvpOjAV-O4HU",	//模板id
+                data: {	//要通知的模板数据
+                    "thing5": { "value": "标题" },
+                    "date9": { "value": "2020-01-01 08:10:00" },
+                    "thing8": { "value": "紧急且重要" },
+                    "thing2": { "value": "发货通知成功" }
+                }
+            };
+            const res = await ctx.curl(`https://api.weixin.qq.com/cgi-bin/message/subscribe/send?access_token=${access_token}`, {
+                data,
+                method: 'POST',
+                dataType: 'json',
+                contentType: 'json',
+            });
+            console.log(res)
+        }
+        return list;
     }
 }
 
