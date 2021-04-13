@@ -77,6 +77,17 @@ class HomeController extends Controller {
       ctx.$error(error);
     }
   }
+  async sendMsg() {
+    const { ctx } = this;
+    const params = ctx.request.body;
+    try {
+      const data = await this.ctx.service.home.sendMsg(params)
+      ctx.$success(data)
+    } catch (error) {
+      ctx.logger.error(error);
+      ctx.$error(error);
+    }
+  }
 }
 
 module.exports = HomeController;
