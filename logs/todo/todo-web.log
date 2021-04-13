@@ -1,0 +1,56 @@
+2021-04-13 20:33:52,321 INFO 6024 [egg-sequelize](10ms) Executed (default): SELECT 1+1 AS result
+2021-04-13 20:34:28,723 INFO 6024 [egg-sequelize](10ms) Executed (default): SELECT `todo`.`openid`, `todo`.`content`, `todo`.`endTime`, `send_msg`.`id`, `send_msg`.`todoId` FROM `send_msg` AS `send_msg` LEFT OUTER JOIN `todos` AS `todo` ON `send_msg`.`todoId` = `todo`.`id`;
+2021-04-13 20:35:22,579 INFO 16232 [egg-sequelize](10ms) Executed (default): SELECT 1+1 AS result
+2021-04-13 20:35:24,958 INFO 11344 [egg-sequelize](10ms) Executed (default): SELECT 1+1 AS result
+2021-04-13 20:35:50,622 INFO 16908 [egg-sequelize](10ms) Executed (default): SELECT 1+1 AS result
+2021-04-13 20:37:43,133 INFO 12968 [egg-sequelize](10ms) Executed (default): SELECT 1+1 AS result
+2021-04-13 20:37:54,436 INFO 18832 [egg-sequelize](10ms) Executed (default): SELECT 1+1 AS result
+2021-04-13 20:38:14,635 INFO 15648 [egg-sequelize](11ms) Executed (default): SELECT 1+1 AS result
+2021-04-13 20:38:42,533 INFO 8316 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-04-13 20:38:52,657 INFO 8316 [egg-sequelize](10ms) Executed (default): SELECT `todo`.`openid`, `todo`.`content`, `todo`.`endTime`, `send_msg`.`id`, `send_msg`.`todoId`, `send_msg`.`lever` FROM `send_msg` AS `send_msg` LEFT OUTER JOIN `todos` AS `todo` ON `send_msg`.`todoId` = `todo`.`id`;
+2021-04-13 20:38:52,661 ERROR 8316 [-/127.0.0.1/-/72ms POST /api/sendMsg] nodejs.SequelizeDatabaseError: Unknown column 'send_msg.lever' in 'field list'
+    at Query.formatError (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\dialects\abstract\query-interface.js:953:12)
+    at async Function.findAll (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_sequelize@6.6.2@sequelize\lib\model.js:1753:21)
+    at async HomeService.sendMsg (C:\Users\LI\Desktop\egg\egg-todo\app\service\home.js:71:22)
+    at async HomeController.sendMsg (C:\Users\LI\Desktop\egg\egg-todo\app\controller\home.js:84:20)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'send_msg.lever' in 'field list'","sql":"SELECT `todo`.`openid`, `todo`.`content`, `todo`.`endTime`, `send_msg`.`id`, `send_msg`.`todoId`, `send_msg`.`lever` FROM `send_msg` AS `send_msg` LEFT OUTER JOIN `todos` AS `todo` ON `send_msg`.`todoId` = `todo`.`id`;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'send_msg.lever' in 'field list'","sql":"SELECT `todo`.`openid`, `todo`.`content`, `todo`.`endTime`, `send_msg`.`id`, `send_msg`.`todoId`, `send_msg`.`lever` FROM `send_msg` AS `send_msg` LEFT OUTER JOIN `todos` AS `todo` ON `send_msg`.`todoId` = `todo`.`id`;"}
+sql: "SELECT `todo`.`openid`, `todo`.`content`, `todo`.`endTime`, `send_msg`.`id`, `send_msg`.`todoId`, `send_msg`.`lever` FROM `send_msg` AS `send_msg` LEFT OUTER JOIN `todos` AS `todo` ON `send_msg`.`todoId` = `todo`.`id`;"
+parameters: undefined
+pid: 8316
+hostname: DESKTOP-LPGQGKC
+
+2021-04-13 20:39:13,338 INFO 11176 [egg-sequelize](10ms) Executed (default): SELECT 1+1 AS result
+2021-04-13 20:39:18,635 INFO 11176 [egg-sequelize](11ms) Executed (default): SELECT `todo`.`openid`, `todo`.`content`, `todo`.`endTime`, `todo`.`lever`, `send_msg`.`id`, `send_msg`.`todoId` FROM `send_msg` AS `send_msg` LEFT OUTER JOIN `todos` AS `todo` ON `send_msg`.`todoId` = `todo`.`id`;
+2021-04-13 20:39:18,923 ERROR 11176 [-/127.0.0.1/-/320ms POST /api/sendMsg] nodejs.ReferenceError: res is not defined
+    at HomeService.sendMsg (C:\Users\LI\Desktop\egg\egg-todo\app\service\home.js:101:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async HomeController.sendMsg (C:\Users\LI\Desktop\egg\egg-todo\app\controller\home.js:84:20)
+    at async C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\LI\Desktop\egg\egg-todo\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+
+pid: 11176
+hostname: DESKTOP-LPGQGKC
+
+2021-04-13 20:39:57,003 INFO 20852 [egg-sequelize](17ms) Executed (default): SELECT 1+1 AS result
+2021-04-13 20:40:07,192 INFO 1828 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-04-13 20:40:12,684 INFO 1828 [egg-sequelize](13ms) Executed (default): SELECT `todo`.`openid`, `todo`.`content`, `todo`.`endTime`, `todo`.`lever`, `send_msg`.`id`, `send_msg`.`todoId` FROM `send_msg` AS `send_msg` LEFT OUTER JOIN `todos` AS `todo` ON `send_msg`.`todoId` = `todo`.`id`;
+2021-04-13 20:40:27,996 INFO 1828 [egg-sequelize](10ms) Executed (default): SELECT `todo`.`openid`, `todo`.`content`, `todo`.`endTime`, `todo`.`lever`, `send_msg`.`id`, `send_msg`.`todoId` FROM `send_msg` AS `send_msg` LEFT OUTER JOIN `todos` AS `todo` ON `send_msg`.`todoId` = `todo`.`id`;
+2021-04-13 20:40:58,501 INFO 4132 [egg-sequelize](9ms) Executed (default): SELECT 1+1 AS result
+2021-04-13 20:41:09,767 INFO 10292 [egg-sequelize](10ms) Executed (default): SELECT 1+1 AS result
+2021-04-13 20:41:13,243 INFO 19180 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-04-13 20:42:21,025 INFO 19180 [egg-sequelize](10ms) Executed (default): SELECT `todo`.`openid`, `todo`.`content`, `todo`.`endTime`, `todo`.`lever`, `send_msg`.`id`, `send_msg`.`todoId` FROM `send_msg` AS `send_msg` LEFT OUTER JOIN `todos` AS `todo` ON `send_msg`.`todoId` = `todo`.`id`;
+2021-04-13 21:04:57,143 INFO 9396 [egg-sequelize](10ms) Executed (default): SELECT 1+1 AS result
+2021-04-13 21:05:00,606 INFO 20696 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result

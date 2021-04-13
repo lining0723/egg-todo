@@ -70,7 +70,7 @@ class HomeService extends Service {
         const { ctx } = this
         const list = await ctx.model.SendMsg.findAll({
             // order: [['endTime', 'desc']],
-            attributes: [Sequelize.col('todo.openid'), Sequelize.col('todo.content'), Sequelize.col('todo.endTime'), 'id', 'todoId'],  //数据打平后要输出的字段 
+            attributes: [Sequelize.col('todo.openid'), Sequelize.col('todo.content'), Sequelize.col('todo.endTime'), Sequelize.col('todo.lever'), 'id', 'todoId'],  //数据打平后要输出的字段 
             include: [{
                 model: ctx.model.Todos,
                 attributes: []
@@ -80,15 +80,19 @@ class HomeService extends Service {
         const urlStr = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxbccf1273eb88b291&secret=10ebf8ec1f891180713899940602d5f7'
         const tokenRes = await ctx.curl(urlStr);
         let access_token = JSON.parse(tokenRes.data).access_token
+        let result = []
         for (let item of list) {
+            if(item.endTime<new Date()){
+                
+            }
             var data = {
                 touser: item.openid,	//要通知的用户的openID
                 template_id: "RScY5UEMogFbX3c5C5w9cvVJ8Qj8vDEmvpOjAV-O4HU",	//模板id
                 data: {	//要通知的模板数据
-                    "thing5": { "value": "标题" },
-                    "date9": { "value": "2020-01-01 08:10:00" },
-                    "thing8": { "value": "紧急且重要" },
-                    "thing2": { "value": "发货通知成功" }
+                    "thing5": { "value": item.content },
+                    "date9": { "value": item.endTime },
+                    "thing8": { "value": item.lever },
+                    "thing2": { "value": "您有新的日程提醒,请点击查看" }
                 }
             };
             const res = await ctx.curl(`https://api.weixin.qq.com/cgi-bin/message/subscribe/send?access_token=${access_token}`, {
@@ -97,9 +101,9 @@ class HomeService extends Service {
                 dataType: 'json',
                 contentType: 'json',
             });
-            console.log(res)
+            result.push(res.data)
         }
-        return list;
+        return result;
     }
 }
 

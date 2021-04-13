@@ -6,8 +6,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/",
-    "regexp": "/^(?:\\/(?=$))?$/",
+    "path": "/api",
+    "regexp": "/^\\/api(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -18,8 +18,68 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/todoList",
-    "regexp": "/^\\/todoList(?:\\/(?=$))?$/",
+    "path": "/api/todoList",
+    "regexp": "/^\\/api\\/todoList(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/getOpenid",
+    "regexp": "/^\\/api\\/getOpenid(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/create",
+    "regexp": "/^\\/api\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/update",
+    "regexp": "/^\\/api\\/update(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/remove",
+    "regexp": "/^\\/api\\/remove(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/sendMsg",
+    "regexp": "/^\\/api\\/sendMsg(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
