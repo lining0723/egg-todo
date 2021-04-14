@@ -1,3 +1,10 @@
+/*
+ * @Description: 
+ * @Author: LI NING
+ * @Date: 2021-04-09 16:09:57
+ * @LastEditTime: 2021-04-14 17:55:29
+ * @LastEditors:  
+ */
 module.exports = app => {
   const { STRING, INTEGER, DATE } = app.Sequelize;
   const Todos = app.model.define('todos',
@@ -5,7 +12,8 @@ module.exports = app => {
       id: {
         type: INTEGER,
         allowNull: false,
-        primaryKey: true
+        primaryKey: true,
+        autoIncrement: true
       },
       openid: {
         allowNull: false,
