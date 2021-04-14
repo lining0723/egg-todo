@@ -1,3 +1,10 @@
+/*
+ * @Description: 
+ * @Author: LI NING
+ * @Date: 2021-04-09 16:09:57
+ * @LastEditTime: 2021-04-14 14:16:32
+ * @LastEditors:  
+ */
 /* eslint valid-jsdoc: "off" */
 
 'use strict';
@@ -39,6 +46,7 @@ module.exports = appInfo => {
     dialect: 'mysql',
     host: '121.5.226.86',
     port: 3306,
+    username: "todo",
     password: '123456',
     database: 'todo',
     timezone: '+08:00', //改为标准时区
