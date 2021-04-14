@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: LI NING
  * @Date: 2021-04-09 16:09:57
- * @LastEditTime: 2021-04-13 18:21:24
+ * @LastEditTime: 2021-04-14 17:50:20
  * @LastEditors:  
  */
 const Service = require('egg').Service;
@@ -36,6 +36,9 @@ class HomeService extends Service {
             throw new Error('文字内容含有敏感词,请重新输入!');
         }
         const data = await ctx.model.Todos.create(param);
+        if (!!param.endTime) {
+            ctx.model.SendMsg.create({ todoId: data.id });
+        }
         return data;
     }
     async update(param) {
@@ -77,31 +80,42 @@ class HomeService extends Service {
             }],
             raw: true,    //数据打平属性
         });
+        //获取access_token
         const urlStr = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxbccf1273eb88b291&secret=10ebf8ec1f891180713899940602d5f7'
         const tokenRes = await ctx.curl(urlStr);
         let access_token = JSON.parse(tokenRes.data).access_token
         let result = []
         for (let item of list) {
-            if(item.endTime<new Date()){
-                
-            }
-            var data = {
-                touser: item.openid,	//要通知的用户的openID
-                template_id: "RScY5UEMogFbX3c5C5w9cvVJ8Qj8vDEmvpOjAV-O4HU",	//模板id
-                data: {	//要通知的模板数据
-                    "thing5": { "value": item.content },
-                    "date9": { "value": item.endTime },
-                    "thing8": { "value": item.lever },
-                    "thing2": { "value": "您有新的日程提醒,请点击查看" }
+            try {
+                if (!!item.endTime && new Date(item.endTime) < new Date()) {   //有结束时间,并且当前时间大于结束时间,发送消息,并且删除当前记录
+                    var data = {
+                        touser: item.openid,	//要通知的用户的openID
+                        template_id: "RScY5UEMogFbX3c5C5w9cvVJ8Qj8vDEmvpOjAV-O4HU",	//模板id
+                        data: {	//要通知的模板数据
+                            "thing5": { "value": item.content },
+                            "date9": { "value": item.endTime },
+                            "thing8": { "value": item.lever },
+                            "thing2": { "value": "您有新的日程提醒,请点击查看" }
+                        },
+                        page: 'pages/index/index'
+                    };
+                    //发送订阅消息
+                    const res = await ctx.curl(`https://api.weixin.qq.com/cgi-bin/message/subscribe/send?access_token=${access_token}`, {
+                        data,
+                        method: 'POST',
+                        dataType: 'json',
+                        contentType: 'json',
+                    });
+                    result.push(res.data)
                 }
-            };
-            const res = await ctx.curl(`https://api.weixin.qq.com/cgi-bin/message/subscribe/send?access_token=${access_token}`, {
-                data,
-                method: 'POST',
-                dataType: 'json',
-                contentType: 'json',
-            });
-            result.push(res.data)
+                if (!item.endTime || new Date(item.endTime) < new Date()) {
+                    await ctx.model.SendMsg.destroy({
+                        where: { id: item.id }
+                    });
+                }
+            } catch (e) {
+                console.error(e)
+            }
         }
         return result;
     }
