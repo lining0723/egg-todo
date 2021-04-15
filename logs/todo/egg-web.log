@@ -207,3 +207,29 @@
 2021-04-13 21:05:00,454 INFO 20696 [egg:core] dump config after load, 5ms
 2021-04-13 21:05:00,480 INFO 20696 [egg-watcher:application] watcher start success
 2021-04-13 21:05:00,617 INFO 20696 [egg:core] dump config after ready, 8ms
+2021-04-15 16:00:08,294 INFO 16128 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LI\\Desktop\\egg\\egg-todo\\logs\\todo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"todo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-15 16:00:08,326 INFO 16128 [egg-multipart] stream mode enable
+2021-04-15 16:00:08,845 INFO 16128 [egg-static] starting static serve /public/ -> C:\Users\LI\Desktop\egg\egg-todo\app\public
+2021-04-15 16:00:08,848 INFO 16128 [egg-security] use methodnoallow middleware
+2021-04-15 16:00:08,849 INFO 16128 [egg-security] use noopen middleware
+2021-04-15 16:00:08,851 INFO 16128 [egg-security] use nosniff middleware
+2021-04-15 16:00:08,851 INFO 16128 [egg-security] use xssProtection middleware
+2021-04-15 16:00:08,852 INFO 16128 [egg-security] use xframe middleware
+2021-04-15 16:00:08,853 INFO 16128 [egg-security] use dta middleware
+2021-04-15 16:00:08,853 INFO 16128 [egg-security] compose 6 middlewares into one security middleware
+2021-04-15 16:00:08,862 INFO 16128 [egg:core] dump config after load, 5ms
+2021-04-15 16:00:08,892 INFO 16128 [egg-watcher:application] watcher start success
+2021-04-15 16:00:09,006 INFO 16128 [egg:core] dump config after ready, 6ms
+2021-04-15 18:24:54,959 INFO 16200 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LI\\Desktop\\egg\\egg-todo\\logs\\todo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"todo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-15 18:24:54,994 INFO 16200 [egg-multipart] stream mode enable
+2021-04-15 18:24:55,454 INFO 16200 [egg-static] starting static serve /public/ -> C:\Users\LI\Desktop\egg\egg-todo\app\public
+2021-04-15 18:24:55,457 INFO 16200 [egg-security] use methodnoallow middleware
+2021-04-15 18:24:55,457 INFO 16200 [egg-security] use noopen middleware
+2021-04-15 18:24:55,459 INFO 16200 [egg-security] use nosniff middleware
+2021-04-15 18:24:55,459 INFO 16200 [egg-security] use xssProtection middleware
+2021-04-15 18:24:55,460 INFO 16200 [egg-security] use xframe middleware
+2021-04-15 18:24:55,461 INFO 16200 [egg-security] use dta middleware
+2021-04-15 18:24:55,461 INFO 16200 [egg-security] compose 6 middlewares into one security middleware
+2021-04-15 18:24:55,470 INFO 16200 [egg:core] dump config after load, 4ms
+2021-04-15 18:24:55,496 INFO 16200 [egg-watcher:application] watcher start success
+2021-04-15 18:24:55,613 INFO 16200 [egg:core] dump config after ready, 7ms

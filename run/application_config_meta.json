@@ -59,14 +59,14 @@
     "dialect": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\config\\config.default.js",
     "host": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\config\\config.default.js",
     "port": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\config\\config.default.js",
+    "username": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\config\\config.default.js",
     "password": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\config\\config.default.js",
     "database": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\config\\config.default.js",
     "timezone": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\config\\config.default.js",
     "dialectOptions": {
       "dateStrings": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\config\\config.default.js",
       "typeCast": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\config\\config.default.js"
-    },
-    "username": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg-sequelize@6.0.0@egg-sequelize\\config\\config.default.js"
+    }
   },
   "session": {
     "maxAge": "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js",

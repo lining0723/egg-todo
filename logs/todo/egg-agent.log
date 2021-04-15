@@ -110,3 +110,14 @@ pid: 17632
 hostname: DESKTOP-LPGQGKC
 
 2021-04-13 21:04:59,623 WARN 17632 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-04-15 16:00:06,421 INFO 5436 [egg-sequelize](10ms) Executed (default): SELECT 1+1 AS result
+2021-04-15 16:00:05,568 INFO 5436 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\LI\\Desktop\\egg\\egg-todo\\logs\\todo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"todo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-15 16:00:06,172 INFO 5436 [egg:core] dump config after load, 8ms
+2021-04-15 16:00:06,295 INFO 5436 [egg-watcher] Start watching: ["C:\\Users\\LI\\Desktop\\egg\\egg-todo\\app","C:\\Users\\LI\\Desktop\\egg\\egg-todo\\config","C:\\Users\\LI\\Desktop\\egg\\egg-todo\\mocks","C:\\Users\\LI\\Desktop\\egg\\egg-todo\\mocks_proxy","C:\\Users\\LI\\Desktop\\egg\\egg-todo\\app.js"]
+2021-04-15 16:00:06,295 INFO 5436 [egg-watcher] Start watching: "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\app"
+2021-04-15 16:00:06,296 INFO 5436 [egg-watcher] Start watching: "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\config"
+2021-04-15 16:00:06,296 INFO 5436 [egg-watcher] Start watching: "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\mocks"
+2021-04-15 16:00:06,296 INFO 5436 [egg-watcher] Start watching: "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\mocks_proxy"
+2021-04-15 16:00:06,296 INFO 5436 [egg-watcher] Start watching: "C:\\Users\\LI\\Desktop\\egg\\egg-todo\\app.js"
+2021-04-15 16:00:06,297 INFO 5436 [egg-watcher:agent] watcher start success
+2021-04-15 16:00:06,430 INFO 5436 [egg:core] dump config after ready, 6ms

@@ -155,7 +155,7 @@
       "database": "todo",
       "host": "121.5.226.86",
       "port": 3306,
-      "username": "root",
+      "username": "todo",
       "password": "<String len: 6>",
       "timezone": "+08:00",
       "dialectOptions": {
