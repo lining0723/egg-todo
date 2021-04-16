@@ -94,3 +94,18 @@ hostname: DESKTOP-LPGQGKC
 2021-04-15 16:15:16,768 INFO 16128 [egg-sequelize](27ms) Executed (default): UPDATE `todos` SET `id`=?,`status`=? WHERE `id` = ?
 2021-04-15 16:15:16,798 INFO 16128 [egg-sequelize](10ms) Executed (default): SELECT `id`, `openid`, `content`, `createTime`, `remarks`, `status`, `lever`, `endTime` FROM `todos` AS `todos` WHERE `todos`.`openid` = 'otTEY498k5mvP8cV6u0ugF1mSrH0' ORDER BY `todos`.`id` DESC;
 2021-04-15 18:24:55,602 INFO 16200 [egg-sequelize](9ms) Executed (default): SELECT 1+1 AS result
+2021-04-15 18:25:00,706 INFO 16240 [egg-sequelize](9ms) Executed (default): SELECT 1+1 AS result
+2021-04-16 09:51:03,219 INFO 11624 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-04-16 09:51:18,019 INFO 11624 [egg-sequelize](12ms) Executed (default): SELECT `todo`.`openid`, `todo`.`content`, `todo`.`endTime`, `todo`.`lever`, `send_msg`.`id`, `send_msg`.`todoId` FROM `send_msg` AS `send_msg` LEFT OUTER JOIN `todos` AS `todo` ON `send_msg`.`todoId` = `todo`.`id`;
+2021-04-16 09:51:49,109 INFO 11624 [egg-sequelize](10ms) Executed (default): SELECT `todo`.`openid`, `todo`.`content`, `todo`.`endTime`, `todo`.`lever`, `send_msg`.`id`, `send_msg`.`todoId` FROM `send_msg` AS `send_msg` LEFT OUTER JOIN `todos` AS `todo` ON `send_msg`.`todoId` = `todo`.`id`;
+2021-04-16 09:52:03,304 INFO 11624 [egg-sequelize](13ms) Executed (default): SELECT `todo`.`openid`, `todo`.`content`, `todo`.`endTime`, `todo`.`lever`, `send_msg`.`id`, `send_msg`.`todoId` FROM `send_msg` AS `send_msg` LEFT OUTER JOIN `todos` AS `todo` ON `send_msg`.`todoId` = `todo`.`id`;
+2021-04-16 09:52:07,907 INFO 14784 [egg-sequelize](10ms) Executed (default): SELECT 1+1 AS result
+2021-04-16 09:52:22,274 INFO 14784 [egg-sequelize](14ms) Executed (default): SELECT `todo`.`openid`, `todo`.`content`, `todo`.`endTime`, `todo`.`lever`, `send_msg`.`id`, `send_msg`.`todoId` FROM `send_msg` AS `send_msg` LEFT OUTER JOIN `todos` AS `todo` ON `send_msg`.`todoId` = `todo`.`id`;
+2021-04-16 09:52:22,613 INFO 14784 [egg-sequelize](20ms) Executed (default): DELETE FROM `send_msg` WHERE `id` = 11
+2021-04-16 09:52:43,843 INFO 14784 [egg-sequelize](10ms) Executed (default): SELECT `todo`.`openid`, `todo`.`content`, `todo`.`endTime`, `todo`.`lever`, `send_msg`.`id`, `send_msg`.`todoId` FROM `send_msg` AS `send_msg` LEFT OUTER JOIN `todos` AS `todo` ON `send_msg`.`todoId` = `todo`.`id`;
+2021-04-16 09:52:44,790 INFO 20976 [egg-sequelize](13ms) Executed (default): SELECT 1+1 AS result
+2021-04-16 09:52:56,528 INFO 20976 [egg-sequelize](10ms) Executed (default): SELECT `todo`.`openid`, `todo`.`content`, `todo`.`endTime`, `todo`.`lever`, `send_msg`.`id`, `send_msg`.`todoId` FROM `send_msg` AS `send_msg` LEFT OUTER JOIN `todos` AS `todo` ON `send_msg`.`todoId` = `todo`.`id`;
+2021-04-16 09:52:56,857 INFO 20976 [egg-sequelize](15ms) Executed (default): DELETE FROM `send_msg` WHERE `id` = 18
+2021-04-16 09:53:03,251 INFO 20976 [egg-sequelize](11ms) Executed (default): SELECT `todo`.`openid`, `todo`.`content`, `todo`.`endTime`, `todo`.`lever`, `send_msg`.`id`, `send_msg`.`todoId` FROM `send_msg` AS `send_msg` LEFT OUTER JOIN `todos` AS `todo` ON `send_msg`.`todoId` = `todo`.`id`;
+2021-04-16 09:53:18,376 INFO 20976 [egg-sequelize](9ms) Executed (default): SELECT `todo`.`openid`, `todo`.`content`, `todo`.`endTime`, `todo`.`lever`, `send_msg`.`id`, `send_msg`.`todoId` FROM `send_msg` AS `send_msg` LEFT OUTER JOIN `todos` AS `todo` ON `send_msg`.`todoId` = `todo`.`id`;
+2021-04-16 09:53:18,704 INFO 20976 [egg-sequelize](15ms) Executed (default): DELETE FROM `send_msg` WHERE `id` = 19

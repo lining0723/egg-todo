@@ -171,3 +171,29 @@
 2021-04-15 18:24:54,993 INFO 16200 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
 2021-04-15 18:24:54,993 INFO 16200 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
 2021-04-15 18:24:54,993 INFO 16200 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\app\schedule\sendMsg.js
+2021-04-15 18:25:00,097 INFO 16240 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2021-04-15 18:25:00,097 INFO 16240 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2021-04-15 18:25:00,097 INFO 16240 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2021-04-15 18:25:00,097 INFO 16240 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\app\schedule\sendMsg.js
+2021-04-16 09:51:02,545 INFO 11624 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2021-04-16 09:51:02,545 INFO 11624 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2021-04-16 09:51:02,545 INFO 11624 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2021-04-16 09:51:02,545 INFO 11624 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\app\schedule\sendMsg.js
+2021-04-16 09:51:03,235 INFO 19636 [Timer] C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 67136768ms at 2021-04-17 04:30:00.003
+2021-04-16 09:51:03,235 INFO 19636 [Timer] C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 50936765ms at 2021-04-17 00:00:00.000
+2021-04-16 09:51:03,236 INFO 19636 [Timer] C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 50937765ms at 2021-04-17 00:00:01.001
+2021-04-16 09:51:03,236 INFO 19636 [Timer] C:\Users\LI\Desktop\egg\egg-todo\app\schedule\sendMsg.js next time will execute after 60000ms at 2021-04-16 09:52:03.236
+2021-04-16 09:52:03,238 INFO 11624 [Job#161853792323715000203126593001] C:\Users\LI\Desktop\egg\egg-todo\app\schedule\sendMsg.js executing by app
+2021-04-16 09:52:03,239 INFO 11624 [Job#161853792323715000203126593001] C:\Users\LI\Desktop\egg\egg-todo\app\schedule\sendMsg.js execute succeed, used 0ms. 
+2021-04-16 09:52:03,238 INFO 19636 [Timer] C:\Users\LI\Desktop\egg\egg-todo\app\schedule\sendMsg.js next time will execute after 60000ms at 2021-04-16 09:53:03.238
+2021-04-16 09:52:07,022 INFO 14784 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2021-04-16 09:52:07,022 INFO 14784 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2021-04-16 09:52:07,022 INFO 14784 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2021-04-16 09:52:07,022 INFO 14784 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\app\schedule\sendMsg.js
+2021-04-16 09:52:43,888 INFO 20976 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2021-04-16 09:52:43,888 INFO 20976 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2021-04-16 09:52:43,888 INFO 20976 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2021-04-16 09:52:43,888 INFO 20976 [egg-schedule]: register schedule C:\Users\LI\Desktop\egg\egg-todo\app\schedule\sendMsg.js
+2021-04-16 09:53:03,239 INFO 20976 [Job#161853798323915000263141805002] C:\Users\LI\Desktop\egg\egg-todo\app\schedule\sendMsg.js executing by app
+2021-04-16 09:53:03,240 INFO 20976 [Job#161853798323915000263141805002] C:\Users\LI\Desktop\egg\egg-todo\app\schedule\sendMsg.js execute succeed, used 1ms. 
+2021-04-16 09:53:03,239 INFO 19636 [Timer] C:\Users\LI\Desktop\egg\egg-todo\app\schedule\sendMsg.js next time will execute after 60000ms at 2021-04-16 09:54:03.239

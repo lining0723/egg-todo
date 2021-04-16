@@ -94,7 +94,7 @@ class HomeService extends Service {
                         data: {	//要通知的模板数据
                             "thing5": { "value": item.content },
                             "date9": { "value": item.endTime },
-                            "thing8": { "value": item.lever },
+                            "thing8": { "value": item.lever||0 },
                             "thing2": { "value": "您有新的日程提醒,请点击查看" }
                         },
                         page: 'pages/index/index'
@@ -114,7 +114,7 @@ class HomeService extends Service {
                     });
                 }
             } catch (e) {
-                console.error(e)
+                console.log(e)
             }
         }
         return result;
